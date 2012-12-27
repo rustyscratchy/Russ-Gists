@@ -1,0 +1,13 @@
+$ git --version
+$ git config --global user.name "Russ McMullin"
+$ git config --global user.email "russ@catjuggling.com"
+$ git config --global color.ui true (colorized output)
+
+$ git clone <URL>  (clones entire history to your HD)
+
+$ git status
+$ git commit -a -m 'commit message' (automatically stage)
+$ git log (gives history)
+$ git diff
+$ git commit -m 'message'
+$ git reset HEAD <filename> (unstages a file)
